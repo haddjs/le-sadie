@@ -13,7 +13,13 @@ const CardProduct = ({ title, description, product, price }) => {
 				<h1 className="font-playfair text-5xl font-semibold">{title}</h1>
 			</div>
 			<div>
-				<Image alt="product" src={product} width={300} height={10} />
+				<Image
+					alt="product"
+					src={product}
+					width={300}
+					height={10}
+					className="duration-200 ease-in-out hover:scale-115"
+				/>
 			</div>
 			<div className="flex flex-col items-center gap-4">
 				<span className="w-2/3 text-center">{description}</span>

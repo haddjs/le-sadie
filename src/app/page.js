@@ -31,7 +31,9 @@ const Home = () => {
 						far you&apos;ve come and how sweet the journey has been.
 					</p>
 				</div>
-				<Button title="MAU DONG!" />
+				<a href="http://wa.me/6285150599578" target="_blank">
+					<Button title="MAU DONG!" />
+				</a>
 			</div>
 
 			<div className="flex flex-col items-center gap-7 py-10">
@@ -41,7 +43,7 @@ const Home = () => {
 					flavor made to sweeten your most meaningful moments.
 				</p>
 				<div>
-					<button className="flex bg-[#710014] items-center px-15 py-4 text-2xl rounded-4xl font-[900] text-white">
+					<button className="flex bg-[#710014] items-center px-15 py-4 text-2xl rounded-4xl font-[900] duration-200 ease-in-out hover:bg-[#711a00] text-white cursor-pointer">
 						<p className="-translate-x-1/9">ABOUT US</p>
 						<FontAwesomeIcon
 							icon={faArrowCircleRight}
@@ -75,9 +77,12 @@ const Home = () => {
 				<h1 className="font-playfair font-bold text-5xl">
 					Find the one that speaks your flavour
 				</h1>
-				<div className="text-white">
+				<a
+					href="https://gofood.co.id/bandung/restaurant/le-sadie-bake-e75fea4e-545e-4577-8868-3b7c35da3171"
+					target="_blank"
+					className="text-white">
 					<Button title="BROWSE OUR CAKES" />
-				</div>
+				</a>
 			</div>
 
 			<Footer />
